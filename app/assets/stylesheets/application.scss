@@ -35,12 +35,12 @@
  }
 
  body.homepage {
-   background: asset-url('Background-1.jpg');
+   background: asset-url('Smashin-2.jpg');
    background-size: 100% 100%;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: original;
  }
 
  body.aboutpage {
@@ -49,7 +49,7 @@
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: center;
  }
 
  #wrap {
@@ -83,7 +83,7 @@
 /* general - end */
 
 .container.home {
-  background-image: url('/assets/Background-1.jpg');
+  background-image: url('/assets/Smashin-2.jpg');
 }
 
 .table tbody>tr>td.middle {
