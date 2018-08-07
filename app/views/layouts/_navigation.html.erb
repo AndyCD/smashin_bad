@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">
     <!--<img src="/assets/Logo-1.jpg" width="30" height="30" class="d-inline-block align-top" alt="">-->
-    <%= image_tag "Smashin-Logo-3.jpg", width: 100, height: 60, class: "d-inline-block align-top", alt: "" %>
+    <%= image_tag "Smashin-Logo-3.jpg", width: 70, height: 40, class: "d-inline-block align-top", alt: "" %>
   </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,9 +39,14 @@
                 Subjects
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <%= link_to 'Subject', subject_path, class: 'dropdown-item' %>
-                <%= link_to 'Another subject', another_subject_path, class: 'dropdown-item' %>
-                <%= link_to 'Another another subject', another_another_subject_path, class: 'dropdown-item' %>
+                <%= link_to 'Grammar', grammar_path, class: 'dropdown-item' %>
+                <%= link_to 'Sentence Structure', sentence_structure_path, class: 'dropdown-item' %>
+                <%= link_to 'Vocabulary Building', vocabulary_building_path, class: 'dropdown-item' %>
+                <%= link_to 'Essay Writing', essay_writing_path, class: 'dropdown-item' %>
+                <%= link_to 'Story Writing', story_writing_path, class: 'dropdown-item' %>
+                <%= link_to 'Rhetorical Devices', rhetorical_devices_path, class: 'dropdown-item' %>
+                <%= link_to 'Classic English', classic_english_path, class: 'dropdown-item' %>
+
               </div>
             </li>
 

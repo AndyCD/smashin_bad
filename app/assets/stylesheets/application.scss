@@ -16,6 +16,86 @@
 @import "bootstrap";
 @import "font-awesome";
 
+/* custom fonts - begin */
+@font-face {
+  font-family: "Cassandra_Personal_Use";
+  src: url(/assets/Cassandra_Personal_Use.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "a_Theme_for_murder";
+  src: url(/assets/a_Theme_for_murder.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Eutemia";
+  src: url(/assets/Eutemia.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Olho_de_Boi";
+  src: url(/assets/Olho_de_Boi.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SCRIPALT";
+  src: url(/assets/SCRIPALT.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SCRIPTIN";
+  src: url(/assets/SCRIPTIN.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Architex";
+  src: url(/assets/Architex.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "beneg";
+  src: url(/assets/beneg.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Syne-Regular";
+  src: url(/assets/Syne-Regular.ttf) format("truetype");
+}
+
+/* custom fonts - end */
+
+/* writing text on top of an image - begin */
+.special-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-top {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+}
+
+.centered-top-lower {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-bottom {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* writing text on top of an image - end */
+
 /* general - begin */
  .container {
    width: auto;

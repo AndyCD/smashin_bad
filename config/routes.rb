@@ -4,9 +4,13 @@ Rails.application.routes.draw do
 
   get 'about', to: 'main#about'
 
-  get 'subject', to: 'main#subject'
-  get 'another_subject', to: 'main#another_subject'
-  get 'another_another_subject', to: 'main#another_another_subject'
+  get 'grammar', to: 'main#grammar'
+  get 'sentence_structure', to: 'main#sentence_structure'
+  get 'vocabulary_building', to: 'main#vocabulary_building'
+  get 'essay_writing', to: 'main#essay_writing'
+  get 'story_writing', to: 'main#story_writing'
+  get 'rhetorical_devices', to: 'main#rhetorical_devices'
+  get 'classic_english', to: 'main#classic_english'
 
   resources :users, only: [:index, :show, :edit, :update, :destroy]
 
